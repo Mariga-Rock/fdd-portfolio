@@ -19,6 +19,7 @@ import {
   ArrowLeft,
   Check,
 } from 'lucide-react';
+import profilePic from './assets/1000018781.png';
 
 type View = 'home' | 'case-studies';
 
@@ -301,9 +302,11 @@ function App() {
                 </button>
               </div>
             </div>
-            <div className="w-full h-[420px] bg-gray-300 rounded-2xl flex items-center justify-center text-gray-500">
-  Photo
-</div>
+            <img
+  src={profilePic}
+  alt="Maria Guryanova, Design Director" 
+  className="w-full h-[420px] object-cover"
+/>
             </div>
           </div>
  
