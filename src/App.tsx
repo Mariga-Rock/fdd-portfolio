@@ -288,11 +288,11 @@ function App() {
                 </button>
               </div>
             </div>
-           <div className="lg:col-span-3 mt-2 animate-on-scroll">
+           <div className="lg:col-span-3 mt-3 animate-on-scroll">
             <img
   src={profilePic}
   alt="Maria Guryanova, Design Director" 
-  className="w-full h-[360px] object-cover"
+  className="w-full h-[300px] object-cover"
 /></div>
             </div>
           </div>
