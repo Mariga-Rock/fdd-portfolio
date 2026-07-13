@@ -160,7 +160,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://formspree.io/f/mgojqyvl', {
+      const response = await fetch('https://formspree.io/f/mbdnjwov', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
