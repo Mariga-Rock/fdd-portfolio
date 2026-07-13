@@ -256,22 +256,13 @@ function App() {
               >
                 Case Studies
               </button>
-              <button
-                onClick={() => {
-                  setIsMenuOpen(false);
-                  goHome();
-                }}
-                className="block mt-4 bg-rose-600 text-white px-5 py-2.5 rounded-lg font-semibold text-center"
-              >
-                Get in Touch
-              </button>
             </div>
           )}
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gray-50 pt-28 pb-12 lg:pt-32 lg:pb-16 text-left min-h-[80vh] flex items-center">
+      <section className="bg-gray-50 pt-28 pb-12 lg:pt-24 lg:pb-10 text-left min-h-[60vh] flex items-center">
         <div className="max-w-7xl mx-auto px-6 sm:px-4 lg:px-8 w-full">
          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
   <div className="max-w-4xl lg:col-span-9">
