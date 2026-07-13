@@ -274,7 +274,7 @@ function App() {
       <section className="bg-gray-50 pt-28 pb-12 lg:pt-32 lg:pb-16 text-left min-h-[80vh] flex items-center">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 w-full">
          <div className="grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-  <div className="max-w-4xl lg:col-span-10">
+  <div className="max-w-4xl lg:col-span-9">
               <p className="text-rose-600 font-semibold tracking-wide uppercase mb-2 animate-on-scroll">
                 US & APAC
               </p>
@@ -302,7 +302,7 @@ function App() {
                 </button>
               </div>
             </div>
-           <div className="lg:col-span-2">
+           <div className="lg:col-span-3">
             <img
   src={profilePic}
   alt="Maria Guryanova, Design Director" 
