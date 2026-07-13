@@ -173,14 +173,28 @@ function App() {
         setIsSubmitted(true);
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert('Ошибка отправки. Попробуйте ещё раз.');
+        alert('Sending error. Please try again.');
       }
     } catch (error) {
-      alert('Ошибка соединения. Проверьте интернет.');
+      alert('Connection error. Check your internet connection.');
     }
   };
 
   const goToCaseStudies = () => setView('case-studies');
+  const handleContactClick = () => {
+    if (view !== 'home') {
+      setView('home');
+      setTimeout(() => {
+        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+      }, 200);
+    } else {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  if (view === 'case-studies') {
+    return <CaseStudiesPage onBack={goHome} />;
+  }
   const goHome = () => setView('home');
 
   if (view === 'case-studies') {
