@@ -279,8 +279,9 @@ function App() {
                 US & APAC
               </p>
               <h1 className="text-4xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-3 animate-on-scroll">
-                Maria Guryanova, Fractional Design Director for Enterprise B2B Products
+                Maria Guryanova 
               </h1>
+    <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl animate-on-scroll">Fractional Design Director for Enterprise B2B Products</p>
               <p className="text-xl lg:text-2xl text-gray-600 mb-6 leading-relaxed max-w-3xl animate-on-scroll">
                 Design systems, UX strategy, and team mentorship to scale your product without hiring full-time.
                 <br />
