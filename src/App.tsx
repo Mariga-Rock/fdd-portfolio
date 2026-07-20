@@ -149,6 +149,20 @@ function App() {
     document.querySelectorAll('.animate-on-scroll').forEach((el) => {
       observerRef.current?.observe(el);
     });
+      // 👇 ВСЕ ФУНКЦИИ ОПРЕДЕЛЯЕМ ЗДЕСЬ, В САМОМ НАЧАЛЕ
+  const goHome = () => setView('home');
+  const goToCaseStudies = () => setView('case-studies');
+
+  const handleContactClick = () => {
+    if (view !== 'home') {
+      setView('home');
+      setTimeout(() => {
+        document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+      }, 200);
+    } else {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
     return () => observerRef.current?.disconnect();
   }, [view]);
