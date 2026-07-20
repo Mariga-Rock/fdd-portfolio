@@ -331,52 +331,6 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-14 lg:py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 px-4 sm:px-6 lg:px-10">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <div>
-              <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">
-                About
-              </h2>
-              <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 animate-on-scroll">
-                13+ Years of Shipping Enterprise Products and Design Leadership
-              </h3>
-              <div className="space-y-4 text-gray-600 text-lg leading-relaxed animate-on-scroll">
-                <p>
-                  Enterprise-grade design systems and UX strategy — I help you scale your product and
-                  teams faster, with fewer iterations. No full-time commitment required.
-                </p>
-                <p>
-                  After 10+ years of designing complex B2B systems for US enterprises, I'm now focusing
-                  on helping APAC startups and scale-ups build world-class design infrastructure that scales with them - design systems, component libraries, and the teams to manage it all.
-                </p>
-                <p>
-                  I bridge the gap between design and engineering, mentoring teams to ship better products, faster. My approach is systematic, business driven and tailored to the unique challenges of fast growing APAC companies
-                </p>
-              </div>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 animate-on-scroll">
-              <div className="bg-white rounded-2xl p-6 border border-gray-100">
-                <Boxes className="w-10 h-10 text-rose-600 mb-3" />
-                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">3+</div>
-                <div className="text-gray-500 font-small">Design systems built</div>
-              </div>
-              <div className="bg-white rounded-2xl p-6 border border-gray-100">
-                <Rocket className="w-10 h-10 text-rose-600 mb-3" />
-                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">8</div>
-                <div className="text-gray-500 font-small">Products shipped</div>
-              </div>
-              <div className="bg-white rounded-2xl p-6 border border-gray-100">
-                <UsersRound className="w-10 h-10 text-rose-600 mb-3" />
-                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">5+</div>
-                <div className="text-gray-500 font-small">Led teams of this size</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section id="services" className="py-14 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -480,6 +434,52 @@ function App() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-14 lg:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 px-4 sm:px-6 lg:px-10">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+            <div>
+              <h2 className="text-sm font-semibold text-rose-600 uppercase tracking-wide mb-3 animate-on-scroll">
+                About
+              </h2>
+              <h3 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 animate-on-scroll">
+                13+ Years of Shipping Enterprise Products and Design Leadership
+              </h3>
+              <div className="space-y-4 text-gray-600 text-lg leading-relaxed animate-on-scroll">
+                <p>
+                  Enterprise-grade design systems and UX strategy — I help you scale your product and
+                  teams faster, with fewer iterations. No full-time commitment required.
+                </p>
+                <p>
+                  After 10+ years of designing complex B2B systems for US enterprises, I'm now focusing
+                  on helping APAC startups and scale-ups build world-class design infrastructure that scales with them - design systems, component libraries, and the teams to manage it all.
+                </p>
+                <p>
+                  I bridge the gap between design and engineering, mentoring teams to ship better products, faster. My approach is systematic, business driven and tailored to the unique challenges of fast growing APAC companies
+                </p>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-6 animate-on-scroll">
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <Boxes className="w-10 h-10 text-rose-600 mb-3" />
+                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">3+</div>
+                <div className="text-gray-500 font-small">Design systems built</div>
+              </div>
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <Rocket className="w-10 h-10 text-rose-600 mb-3" />
+                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">8</div>
+                <div className="text-gray-500 font-small">Products shipped</div>
+              </div>
+              <div className="bg-white rounded-2xl p-6 border border-gray-100">
+                <UsersRound className="w-10 h-10 text-rose-600 mb-3" />
+                <div className="text-4xl lg:text-5xl font-bold text-rose-600 mb-2">5+</div>
+                <div className="text-gray-500 font-small">Led teams of this size</div>
               </div>
             </div>
           </div>
